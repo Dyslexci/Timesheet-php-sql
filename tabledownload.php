@@ -1,7 +1,8 @@
 
 <?php
 
-$connect = new PDO("mysql:host=localhost;dbname=testingdadwork", "root", "");
+//$connect = new PDO("mysql:host=localhost;dbname=testingdadwork", "root", "");
+$db = new PDO("mysql:dbname=u_190232957_test;host=localhost","u-190232957","Sf2dk9N2Jt1IDbQ");
 
 $start_date_error = '';
 $end_date_error = '';

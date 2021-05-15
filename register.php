@@ -4,7 +4,8 @@
     $registerfailed = '';
 
     // Connect to the server and select database
-        $db = new PDO("mysql:dbname=testingdadwork;host=localhost","root","");
+        //$db = new PDO("mysql:dbname=testingdadwork;host=localhost","root","");
+        $db = new PDO("mysql:dbname=u_190232957_test;host=localhost","u-190232957","Sf2dk9N2Jt1IDbQ");
         $db -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         $sql = "SELECT count(*) FROM users WHERE username = :username";
